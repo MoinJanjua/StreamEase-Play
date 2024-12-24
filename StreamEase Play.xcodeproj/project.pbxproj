@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA07A90A2D17F438003EE496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A9092D17F438003EE496 /* AppDelegate.swift */; };
+		AA07A90C2D17F438003EE496 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A90B2D17F438003EE496 /* SceneDelegate.swift */; };
+		AA07A9112D17F438003EE496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA07A90F2D17F438003EE496 /* Main.storyboard */; };
+		AA07A9132D17F43A003EE496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA07A9122D17F43A003EE496 /* Assets.xcassets */; };
+		AA07A9162D17F43A003EE496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA07A9142D17F43A003EE496 /* LaunchScreen.storyboard */; };
+		AA07A9202D17F7D8003EE496 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A91F2D17F7D8003EE496 /* WelcomeViewController.swift */; };
+		AA07A9232D17F84E003EE496 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A9222D17F84E003EE496 /* VideoListViewController.swift */; };
+		AA07A9252D17FA8E003EE496 /* videoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A9242D17FA8E003EE496 /* videoTableViewCell.swift */; };
+		AA07A9282D17FC7D003EE496 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A9262D17FC7D003EE496 /* Helper.swift */; };
+		AA07A9292D17FC7D003EE496 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A9272D17FC7D003EE496 /* iOSDropDown.swift */; };
+		AA07A92F2D181272003EE496 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A92B2D181272003EE496 /* SideMenuTableViewCell.swift */; };
+		AA07A9302D181272003EE496 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A92C2D181272003EE496 /* FeedbackViewController.swift */; };
+		AA07A9312D181272003EE496 /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A92D2D181272003EE496 /* AboutusViewController.swift */; };
+		AA07A9322D181272003EE496 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07A92E2D181272003EE496 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA07A9062D17F438003EE496 /* StreamEase Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StreamEase Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA07A9092D17F438003EE496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA07A90B2D17F438003EE496 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA07A9102D17F438003EE496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA07A9122D17F43A003EE496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA07A9152D17F43A003EE496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA07A9172D17F43A003EE496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA07A91F2D17F7D8003EE496 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AA07A9222D17F84E003EE496 /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		AA07A9242D17FA8E003EE496 /* videoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoTableViewCell.swift; sourceTree = "<group>"; };
+		AA07A9262D17FC7D003EE496 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AA07A9272D17FC7D003EE496 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		AA07A92B2D181272003EE496 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		AA07A92C2D181272003EE496 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		AA07A92D2D181272003EE496 /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		AA07A92E2D181272003EE496 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA07A9032D17F438003EE496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA07A8FD2D17F438003EE496 = {
+			isa = PBXGroup;
+			children = (
+				AA07A9082D17F438003EE496 /* StreamEase Play */,
+				AA07A9072D17F438003EE496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA07A9072D17F438003EE496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA07A9062D17F438003EE496 /* StreamEase Play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA07A9082D17F438003EE496 /* StreamEase Play */ = {
+			isa = PBXGroup;
+			children = (
+				AA07A92A2D181243003EE496 /* Settings */,
+				AA07A9212D17F835003EE496 /* VideoList */,
+				AA07A91E2D17F7C7003EE496 /* Welcome */,
+				AA07A91D2D17F7BD003EE496 /* Extensions */,
+				AA07A9092D17F438003EE496 /* AppDelegate.swift */,
+				AA07A90B2D17F438003EE496 /* SceneDelegate.swift */,
+				AA07A90F2D17F438003EE496 /* Main.storyboard */,
+				AA07A9122D17F43A003EE496 /* Assets.xcassets */,
+				AA07A9142D17F43A003EE496 /* LaunchScreen.storyboard */,
+				AA07A9172D17F43A003EE496 /* Info.plist */,
+			);
+			path = "StreamEase Play";
+			sourceTree = "<group>";
+		};
+		AA07A91D2D17F7BD003EE496 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA07A9262D17FC7D003EE496 /* Helper.swift */,
+				AA07A9272D17FC7D003EE496 /* iOSDropDown.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA07A91E2D17F7C7003EE496 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				AA07A91F2D17F7D8003EE496 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		AA07A9212D17F835003EE496 /* VideoList */ = {
+			isa = PBXGroup;
+			children = (
+				AA07A9222D17F84E003EE496 /* VideoListViewController.swift */,
+				AA07A9242D17FA8E003EE496 /* videoTableViewCell.swift */,
+			);
+			path = VideoList;
+			sourceTree = "<group>";
+		};
+		AA07A92A2D181243003EE496 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA07A92D2D181272003EE496 /* AboutusViewController.swift */,
+				AA07A92C2D181272003EE496 /* FeedbackViewController.swift */,
+				AA07A92E2D181272003EE496 /* SettingsViewController.swift */,
+				AA07A92B2D181272003EE496 /* SideMenuTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA07A9052D17F438003EE496 /* StreamEase Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA07A91A2D17F43A003EE496 /* Build configuration list for PBXNativeTarget "StreamEase Play" */;
+			buildPhases = (
+				AA07A9022D17F438003EE496 /* Sources */,
+				AA07A9032D17F438003EE496 /* Frameworks */,
+				AA07A9042D17F438003EE496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StreamEase Play";
+			productName = "StreamEase Play";
+			productReference = AA07A9062D17F438003EE496 /* StreamEase Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA07A8FE2D17F438003EE496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AA07A9052D17F438003EE496 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AA07A9012D17F438003EE496 /* Build configuration list for PBXProject "StreamEase Play" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA07A8FD2D17F438003EE496;
+			productRefGroup = AA07A9072D17F438003EE496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA07A9052D17F438003EE496 /* StreamEase Play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA07A9042D17F438003EE496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA07A9162D17F43A003EE496 /* LaunchScreen.storyboard in Resources */,
+				AA07A9132D17F43A003EE496 /* Assets.xcassets in Resources */,
+				AA07A9112D17F438003EE496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA07A9022D17F438003EE496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA07A9202D17F7D8003EE496 /* WelcomeViewController.swift in Sources */,
+				AA07A9292D17FC7D003EE496 /* iOSDropDown.swift in Sources */,
+				AA07A9322D181272003EE496 /* SettingsViewController.swift in Sources */,
+				AA07A90A2D17F438003EE496 /* AppDelegate.swift in Sources */,
+				AA07A92F2D181272003EE496 /* SideMenuTableViewCell.swift in Sources */,
+				AA07A9252D17FA8E003EE496 /* videoTableViewCell.swift in Sources */,
+				AA07A9232D17F84E003EE496 /* VideoListViewController.swift in Sources */,
+				AA07A90C2D17F438003EE496 /* SceneDelegate.swift in Sources */,
+				AA07A9302D181272003EE496 /* FeedbackViewController.swift in Sources */,
+				AA07A9312D181272003EE496 /* AboutusViewController.swift in Sources */,
+				AA07A9282D17FC7D003EE496 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA07A90F2D17F438003EE496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA07A9102D17F438003EE496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA07A9142D17F43A003EE496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA07A9152D17F43A003EE496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA07A9182D17F43A003EE496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA07A9192D17F43A003EE496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA07A91B2D17F43A003EE496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFL944BJ2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StreamEase Play/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We require access to your photo library to allow you to browse and select videos that you want to add or manage within the app. This access is necessary to provide a seamless experience for choosing videos directly from your device.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We require access to your photo library to allow you to browse and select videos that you want to add or manage within the app. This access is necessary to provide a seamless experience for choosing videos directly from your device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StreamEase-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA07A91C2D17F43A003EE496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFL944BJ2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StreamEase Play/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We require access to your photo library to allow you to browse and select videos that you want to add or manage within the app. This access is necessary to provide a seamless experience for choosing videos directly from your device.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We require access to your photo library to allow you to browse and select videos that you want to add or manage within the app. This access is necessary to provide a seamless experience for choosing videos directly from your device.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StreamEase-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA07A9012D17F438003EE496 /* Build configuration list for PBXProject "StreamEase Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA07A9182D17F43A003EE496 /* Debug */,
+				AA07A9192D17F43A003EE496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA07A91A2D17F43A003EE496 /* Build configuration list for PBXNativeTarget "StreamEase Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA07A91B2D17F43A003EE496 /* Debug */,
+				AA07A91C2D17F43A003EE496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA07A8FE2D17F438003EE496 /* Project object */;
+}

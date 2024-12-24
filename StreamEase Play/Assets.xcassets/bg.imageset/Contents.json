@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a-3d-render-of-a-cartoon-style-scene-whe_V1I6hesfTMWpSW_S2iBiWA_VhP-yno8Tt659aefAR5AUA.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
